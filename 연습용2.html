@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" width="500">
+        <form>
+            <tr>
+                <td>
+                    다음
+                    <span style="background-color: indianred;">내용에 맞게 입력</span>
+                    하시오.<br>
+                    전공 분야를 입력하세요.
+                    <select size="1">
+                        <option>소프트웨어</option>
+                        <option>컴퓨터공학</option>
+                        <option>게임개발</option>
+                    </select><br>
+                    이름&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input><br>
+                    아이디&nbsp;&nbsp;&nbsp;&nbsp;<input><br>
+                    비밀번호<input>
+                </td>
+                
+                <td>
+                    <a href="quiz03.html">
+                        <img src="test용.jpg" width="200" height="150"></a>
+                </td>            
+            </tr>
+        </table>
+
+        <table border="1" width="500">
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>성별 조사</legend>
+                            <label for="g">여성</label>
+                            <input id="g" type="radio" name="gender" checked>
+                            <label for="m">남성</label>
+                            <input id="m" type="radio" name="gender">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>취미 조사</legend>
+                            <label for="b">책읽기</label>
+                            <input id="b" type="checkbox">
+                            <label for="s">공부하기</label> 
+                            <input id="s" type="checkbox">
+                            <label for="w">책 읽으며 공부하기</label>
+                            <input id="w" type="checkbox">
+                            <label for="c">컴퓨터</label> 
+                            <input id="c" type="checkbox">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>하고 싶은 말</legend>
+                            <textarea cols="62" rows="5"></textarea>
+                    </fieldset>
+                    
+                    <input type="submit" value="완료">
+                    <input type="reset" value="다시작성">
+
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
